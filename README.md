@@ -1,3 +1,14 @@
+# Entregable 2
+
+## Integrantes:
+- Daniela Arango
+- David Grisales
+- Juan Miguel Castro
+- Camilo Cordoba
+
+
+
+
 ## ¿Qué ventajas le proporciona a un proyecto el uso de un pipeline de CI? Menciona al menos tres ventajas específicas y explica por qué son importantes.
 
 El uso de pipelines de integración continua le aporta muchas ventajas a un proyecto, especialmente porque ayuda a mantener la calidad del código desde etapas tempranas. Una de las ventajas más importantes es que permite detectar errores rápidamente, ya que cada cambio que se sube al repositorio pasa automáticamente por pruebas y validaciones. Así, si algo falla, se identifica de inmediato y no cuando el problema ya es más grande. También ayuda a automatizar tareas repetitivas como instalar dependencias, correr pruebas o construir la aplicación, lo cual ahorra tiempo y reduce errores manuales. Además, da más confianza al equipo al momento de integrar cambios, porque todos saben que el código fue verificado antes de continuar, lo que hace que el proyecto sea más estable y que las entregas sean más seguras.
