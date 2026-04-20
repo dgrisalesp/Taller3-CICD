@@ -64,7 +64,7 @@ def find_elements(browser):
     ],
 )
 def test_calculadora(browser, num1, num2, operacion, resultado_esperado):
-    browser.get(BASE_URL)
+    browser.get(BASE_URL+ "/")
 
     # Encuentra los elementos de la página.  Esta vez con la funcion auxiliar.
     num1_input, num2_input, operacion_select, calcular_button = find_elements(browser)
