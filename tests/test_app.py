@@ -47,3 +47,13 @@ def test_index_post_invalid_numbers(client):
     response = client.post('/', data={'num1': 'a', 'num2': 'b', 'operacion': 'sumar'})
     assert response.status_code == 200
     assert b'Error: Introduce n\xc3\xbameros v\xc3\xa1lidos' in response.data
+
+def test_index_post_potencia(client):
+    response = client.post('/', data={'num1': '2', 'num2': '3', 'operacion': 'potencia'})
+    assert response.status_code == 200
+    assert b'8.0' in response.data
+ 
+def test_index_post_modulo(client):
+    response = client.post('/', data={'num1': '35', 'num2': '4', 'operacion': 'modulo'})
+    assert response.status_code == 200
+    assert b'3.0' in response.data

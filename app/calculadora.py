@@ -27,3 +27,15 @@ def dividir(a, b):
     if b == 0:
         raise ZeroDivisionError("No se puede dividir por cero")
     return a / b
+
+def potencia(a, b):
+    """potencia de dos números."""
+    return a ** b
+ 
+ 
+def modulo(a, b):
+    """modulo de dos números."""
+    if b == 0:
+        raise ZeroDivisionError("No se puede dividir por cero")
+    return a % b
+ 
