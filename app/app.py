@@ -47,4 +47,4 @@ def health():
 
 if __name__ == "__main__":  # pragma: no
     app_port = int(os.environ.get("PORT", 5000))
-    app.run(port=app_port, host="127.0.0.1")
+    app.run(port=app_port, host="0.0.0.0")

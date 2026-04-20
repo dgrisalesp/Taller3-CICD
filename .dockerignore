@@ -20,3 +20,4 @@ acceptance_coverage.xml
 Entregable2-images
 sonar-project.properties
 pytest.ini
+aws_info.txt
