@@ -38,9 +38,11 @@ def index():
 
     return render_template("index.html", resultado=resultado)
 
+
 @app.route("/health")
 def health():
     return "OK", 200
+
 
 if __name__ == "__main__":  # pragma: no
     app_port = int(os.environ.get("PORT", 5000))
