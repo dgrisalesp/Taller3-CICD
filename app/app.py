@@ -9,6 +9,8 @@ from flask import Flask, render_template, request
 from .calculadora import dividir, multiplicar, restar, sumar
 
 app = Flask(__name__)
+app.secret_key = os.environ.get("FLASK_SECRET_KEY", "dev-only-insecure-key")
+
 
 
 @app.route("/", methods=["GET", "POST"])
@@ -46,5 +48,4 @@ def health():
 
 if __name__ == "__main__":  # pragma: no
     app_port = int(os.environ.get("PORT", 5000))
-    app.run(debug=False, port=app_port, host="0.0.0.0")
-    app.secret_key = os.environ.get("FLASK_SECRET_KEY", "dev-only-insecure-key")
+    app.run( port=app_port, host="0.0.0.0")
