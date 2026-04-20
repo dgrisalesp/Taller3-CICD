@@ -31,4 +31,3 @@ infra/terraform.tfstate.backup
 infra/terraform.tfstate.d/
 infra/*.tfvars
 aws_info.txt
-#Test
