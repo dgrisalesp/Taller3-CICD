@@ -6,7 +6,6 @@
 - Juan Miguel Castro
 - Camilo Cordoba
 
-
 ALB URL Staging: http://calculadora-staging-alb-867266404.us-east-1.elb.amazonaws.com/
 ALB URL Production: http://calculadora-production-alb-1719671958.us-east-1.elb.amazonaws.com/
 
